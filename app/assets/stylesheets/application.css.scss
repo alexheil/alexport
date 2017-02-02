@@ -124,7 +124,15 @@ a {
 	background: $accentcolor2;
 }
 
-@media screen and (max-width: 585px) {
+@media screen and (max-width: 1000px) {
+
+  .container {
+    width: 80%;
+  }
+
+}
+
+@media screen and (max-width: 360px) {
 
   .container {
     width: 95%;
