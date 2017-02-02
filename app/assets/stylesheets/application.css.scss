@@ -1,0 +1,113 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+$maincolor: #212121;
+$accentcolor1: #a4421e;
+$accentcolor2: #509e96;
+$accentcolor3: #e68a68;
+$accentcolor4: #b7e3de;
+$textcolor: #eeeeee;
+$serif: Georgia, "Times New Roman", Times, serif;
+$sans: Helvetica, Arial, sans-serif;
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 1.75em;
+  font-family: $sans;
+  background: $maincolor;
+  color: $textcolor;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+	color: $accentcolor1;
+	text-decoration: none;
+	&:hover {
+		color: $accentcolor3;
+	}
+}
+
+.secondarylink {
+	color: $accentcolor2;
+	&:hover {
+		color: $accentcolor4;
+	}
+}	
+
+.wrapper {
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+.container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.primary {
+	color: $accentcolor1;
+}
+
+.secondary {
+	color: $accentcolor2;
+}
+
+.title {
+	font-size: 4em;
+}
+
+.medtitle {
+	font-size: 2em;
+}
+
+.minititle {
+	font-size: 1.5em;
+}
+
+.largevertspace {
+	padding: 10vh 0;
+}
+
+.medvertspace {
+	padding: 5vh 0;
+}
+
+.smallvertspace {
+	padding: 2vh 0;
+}
+
+.minivertspace {
+	padding: 1vh 0;
+}
+
+.threecol {
+	width: 32%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+::selection {
+	background: $accentcolor2;
+}
