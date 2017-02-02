@@ -1,4 +1,4 @@
-Only read this if you beleive your IQ is very tiny.
+Only read this if you believe your IQ is very tiny.
 
 Because this all means nothing.
 
