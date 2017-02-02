@@ -43,15 +43,27 @@ ul {
 a {
 	color: $accentcolor1;
 	text-decoration: none;
+	-webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
 	&:hover {
 		color: $accentcolor3;
+		-webkit-transition: .3s;
+	  -moz-transition: .3s;
+	  -o-transition: .3s;
 	}
 }
 
 .secondarylink {
 	color: $accentcolor2;
+	-webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
 	&:hover {
 		color: $accentcolor4;
+		-webkit-transition: .3s;
+	  -moz-transition: .3s;
+	  -o-transition: .3s;
 	}
 }	
 
@@ -110,4 +122,17 @@ a {
 
 ::selection {
 	background: $accentcolor2;
+}
+
+@media screen and (max-width: 975px) {
+
+  .container {
+    width: 95%;
+  }
+
+  .threecol {
+  	width: 100%;
+  	text-align: center;
+  }
+
 }
