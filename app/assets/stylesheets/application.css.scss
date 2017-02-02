@@ -116,6 +116,7 @@ a {
 
 .threecol {
 	width: 32%;
+	margin: 1vh auto;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -132,7 +133,7 @@ a {
 
 }
 
-@media screen and (max-width: 359px) {
+@media screen and (max-width: 425px) {
 
   .container {
     width: 95%;
