@@ -3,9 +3,11 @@ Rails.application.routes.draw do
 
 root 'static_pages#home'
 
-#######SANDBOXh
+#######SANDBOX
+get 'sandbox' => 'sandboxes#sandbox'
 
 #######PORTFOLIO
+get 'portfolio' => 'portfolios#portfolio'
 
 #######BLOG
 get 'blog' => 'blogs#blog'
