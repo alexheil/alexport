@@ -98,6 +98,10 @@ a {
 	font-size: 1.5em;
 }
 
+.smalltext {
+	font-size: .75em
+}
+
 .largevertspace {
 	padding: 10vh 0;
 }
@@ -119,6 +123,10 @@ a {
 	margin: 1vh auto;
 	display: inline-block;
 	vertical-align: top;
+}
+
+.textcenter {
+	text-align: center;
 }
 
 ::selection {
